@@ -34,7 +34,11 @@ class TestCalculationsLogging(unittest.TestCase):
 
     def test_divide_by_0_logging(self):
         calculations.divide_by_0(10, 0)
-        self.assertIn("Divisor was 0, defaulting to 1", self.log_stream.getvalue())
+        self.assertIn("Received 0 for b, adjusting to 1 to avoid division by zero", self.log_stream.getvalue())
+
+    def test_hello_world_logging(self):
+        calculations.hello_world()
+        self.assertIn("Hello world function called", self.log_stream.getvalue())
 
 if __name__ == '__main__':
     unittest.main()
