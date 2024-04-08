@@ -10,6 +10,8 @@ Functions:
 - divide_by_0(a, b): Returns the quotient of a and b, treating division by zero.
 """
 
+# This module includes an example calculation related to rabbits.
+
 def add(a, b):
     return a + b
 
