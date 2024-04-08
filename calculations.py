@@ -1,3 +1,17 @@
+"""
+This module contains basic mathematical operations used for calculations.
+It also includes a whimsical example related to rabbits.
+
+Functions:
+- add(a, b): Returns the sum of a and b.
+- subtract(a, b): Returns the difference of a and b.
+- multiply(a, b): Returns the product of a and b.
+- divide(a, b): Returns the quotient of a and b.
+- divide_by_0(a, b): Returns the quotient of a and b, treating division by zero.
+"""
+
+# This module includes an example calculation related to rabbits.
+
 def add(a, b):
     return a + b
 
